@@ -16,19 +16,21 @@ li{
 }
 
 input:first-child{
- height: 30px;
- width: 450px;
+	height: 30px;
+	width: 450px;
+}
+
+p{
+	text-align: center;
 }
 
 .navbar{
-	clear: both;
 	margin-right: 0;
 	text-align: right;
 	padding: 10px;
 }
 
 .logo{
-	clear: both;
 	position: relative;
 	margin-top: 10%;
 	text-align: center;
@@ -71,4 +73,18 @@ input:first-child{
 #link{
 	text-decoration: none;
 	color: #6F6F6F;
+}
+
+#photo{
+	border-radius: 50%;
+}
+
+#searchbar{
+	position: relative;
+	width: 40em;
+	border: 1px solid #E0E0E0;
+	background-image: url(img/mic.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 24px;
 }
